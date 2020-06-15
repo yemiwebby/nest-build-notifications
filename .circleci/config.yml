@@ -21,7 +21,7 @@ jobs:
           fail_only: true
           mentions: 'yemiwebby'
       - twilio/sendsms:
-          body: Send SMS to twilio
+          body: A custom message to you about the latest build from your CircleCI pipeline - Twilio
       - twilio/alert:
           body: Send SMS for error
 workflows:
